@@ -321,6 +321,7 @@ local themeStyles = {
         Header = Color3.fromRGB(22, 29, 31),
         TextColor = Color3.fromRGB(48, 25, 52),
         ElementColor = Color3.fromRGB(22, 29, 31)
+     }
 }
 local oldTheme = ""
 
