@@ -314,7 +314,7 @@ local themeStyles = {
         Header = Color3.fromRGB(36, 38, 35),
         TextColor = Color3.fromRGB(0, 0, 0),
         ElementColor = Color3.fromRGB(24, 24, 24)
-    }
+    },
     BlueTheme = {
         SchemeColor = Color3.fromRGB(26, 41, 255),
         Background = Color3.fromRGB(10, 10, 10),
@@ -427,7 +427,7 @@ function Kavo.CreateLib(kavName, themeList)
         themeList = themeStyles.ArcHub
         elseif themeList == "Electron" then
         themeList = themeStyles.Electron
-    elseif themeList == "YouTube" then
+        elseif themeList == "YouTube" then
         themeList = themeStyles.YouTube
         elseif themeList == "BlueTheme" then
         themeList = themeStyles.BlueTheme
