@@ -315,6 +315,12 @@ local themeStyles = {
         TextColor = Color3.fromRGB(0, 0, 0),
         ElementColor = Color3.fromRGB(24, 24, 24)
     }
+    BlueTheme = {
+        SchemeColor = Color3.fromRGB(26, 41, 255),
+        Background = Color3.fromRGB(10, 10, 10),
+        Header = Color3.fromRGB(5, 5, 5),
+        TextColor = Color3.fromRGB(255,255,255),
+        ElementColor = Color3.fromRGB(20, 20, 20)
 }
 local oldTheme = ""
 
@@ -423,6 +429,8 @@ function Kavo.CreateLib(kavName, themeList)
         themeList = themeStyles.Electron
     elseif themeList == "YouTube" then
         themeList = themeStyles.YouTube
+        elseif themeList == "BlueTheme" then
+        themeList = themeStyles.BlueTheme
         else
         if themeList.SchemeColor == nil then
             themeList.SchemeColor = Color3.fromRGB(74, 99, 135)
