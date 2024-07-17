@@ -300,13 +300,6 @@ local themeStyles = {
         Header = Color3.fromRGB(22, 29, 31),
         TextColor = Color3.fromRGB(0,255,255),
         ElementColor = Color3.fromRGB(22, 29, 31)
-    }, 
-    Electron = {
-        SchemeColor = Color3.fromRGB(46, 48, 43),
-        Background = Color3.fromRGB(13, 15, 12),
-        Header = Color3.fromRGB(36, 38, 35),
-        TextColor = Color3.fromRGB(152, 99, 53),
-        ElementColor = Color3.fromRGB(24, 24, 24)
     },
     YouTube = {
         SchemeColor = Color3.fromRGB(46, 48, 43),
@@ -321,7 +314,13 @@ local themeStyles = {
         Header = Color3.fromRGB(5, 5, 5),
         TextColor = Color3.fromRGB(255,255,255),
         ElementColor = Color3.fromRGB(20, 20, 20)
-     }
+    },
+    Darkrai = {
+        SchemeColor = Color3.fromRGB(93, 63, 211),
+        Background = Color3.fromRGB(218, 112, 214),
+        Header = Color3.fromRGB(22, 29, 31),
+        TextColor = Color3.fromRGB(48, 25, 52),
+        ElementColor = Color3.fromRGB(22, 29, 31)
 }
 local oldTheme = ""
 
@@ -426,12 +425,12 @@ function Kavo.CreateLib(kavName, themeList)
         themeList = themeStyles.SunTheme
         elseif themeList == "ArcHub" then
         themeList = themeStyles.ArcHub
-        elseif themeList == "Electron" then
-        themeList = themeStyles.Electron
         elseif themeList == "YouTube" then
         themeList = themeStyles.YouTube
         elseif themeList == "BlueTheme" then
         themeList = themeStyles.BlueTheme
+        elseif themeList == "Darkrai" then
+        themeList = themeStyles.Darkrai
         else
         if themeList.SchemeColor == nil then
             themeList.SchemeColor = Color3.fromRGB(74, 99, 135)
