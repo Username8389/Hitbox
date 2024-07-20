@@ -91,6 +91,13 @@ local themeStyles = {
         TextColor = Color3.fromRGB(255,255,255),
         ElementColor = Color3.fromRGB(20, 20, 20)
     },
+     Colors  = {
+      SchemeColor = Color3.fromRGB(100,0,255),
+      Background = Color3.fromRGB(0, 0, 0),
+      Header = Color3.fromRGB(0, 0, 0),
+      TextColor = Color3.fromRGB(255,255,255),
+      ElementColor = Color3.fromRGB(20, 20, 20)
+    },
     CreamTheme = {
         SchemeColor = Color3.fromRGB(1, 1, 1),
         Background = Color3.fromRGB(0, 0, 0),
@@ -373,6 +380,8 @@ function Kavo.CreateLib(kavName, themeList)
         themeList = themeStyles.BlueBurst
         elseif themeList == "BlueTheme" then
         themeList = themeStyles.BlueTheme
+        elseif themeList == "Colors" then
+        themeList = themeStyles.Colors
         elseif themeList == "CreamTheme" then
         themeList = themeStyles.CreamTheme
         elseif themeList == "Cyan" then
