@@ -56,10 +56,108 @@ local themes = {
     ElementColor = Color3.fromRGB(32, 32, 38)
 }
 local themeStyles = {
+      amogus = {
+        SchemeColor = Color3.fromRGB(255, 140, 0),
+        Background = Color3.fromRGB(0, 0, 0),
+        Header = Color3.fromRGB(0, 0, 0),
+        TextColor = Color3.fromRGB(255, 255, 255),
+        ElementColor = Color3.fromRGB(20, 20, 20)
+    }, 
+     ArcHub = {
+        SchemeColor = Color3.fromRGB(69,69,69),
+        Background = Color3.fromRGB(31, 41, 43),
+        Header = Color3.fromRGB(22, 29, 31),
+        TextColor = Color3.fromRGB(0,255,255),
+        ElementColor = Color3.fromRGB(22, 29, 31)
+    },
+    BloodTheme = {
+        SchemeColor = Color3.fromRGB(227, 27, 27),
+        Background = Color3.fromRGB(10, 10, 10),
+        Header = Color3.fromRGB(5, 5, 5),
+        TextColor = Color3.fromRGB(255,255,255),
+        ElementColor = Color3.fromRGB(20, 20, 20)
+    },
+    BlueBurst = {
+        SchemeColor = Color3.fromRGB(0, 255, 240),
+        Background = Color3.fromRGB(0, 187, 240),
+        Header = Color3.fromRGB(0, 178, 255),
+        TextColor = Color3.fromRGB(0, 74, 179),
+        ElementColor = Color3.fromRGB(0, 105, 255)
+    },
+    BlueTheme = {
+        SchemeColor = Color3.fromRGB(26, 41, 255),
+        Background = Color3.fromRGB(10, 10, 10),
+        Header = Color3.fromRGB(5, 5, 5),
+        TextColor = Color3.fromRGB(255,255,255),
+        ElementColor = Color3.fromRGB(20, 20, 20)
+    },
+    CreamTheme = {
+        SchemeColor = Color3.fromRGB(1, 1, 1),
+        Background = Color3.fromRGB(0, 0, 0),
+        Header = Color3.fromRGB(128, 128, 128),
+        TextColor = Color3.fromRGB(0, 0, 0),
+        ElementColor = Color3.fromRGB(255, 255, 255)
+    },
+    CyanTheme = {
+        SchemeColor = Color3.fromRGB(0,255,230),
+        Background = Color3.fromRGB(10, 10, 10),
+        Header = Color3.fromRGB(5, 5, 5),
+        TextColor = Color3.fromRGB(255,255,255),
+        ElementColor = Color3.fromRGB(20, 20, 20)
+    }, 
+    Darkrai = {
+        SchemeColor = Color3.fromRGB(93, 63, 211),
+        Background = Color3.fromRGB(218, 112, 214),
+        Header = Color3.fromRGB(22, 29, 31),
+        TextColor = Color3.fromRGB(48, 25, 52),
+        ElementColor = Color3.fromRGB(22, 29, 31)
+     },
     DarkTheme = {
         SchemeColor = Color3.fromRGB(255, 140, 0),
         Background = Color3.fromRGB(0, 0, 0),
         Header = Color3.fromRGB(0, 0, 0),
+        TextColor = Color3.fromRGB(255,255,255),
+        ElementColor = Color3.fromRGB(20, 20, 20)
+    },
+    GoofyTheme = {
+        SchemeColor = Color3.fromRGB(178, 102, 255),
+        Background = Color3.fromRGB(160, 205, 230),
+        Header = Color3.fromRGB(255, 127, 80),
+        TextColor = Color3.fromRGB(0, 0, 0),
+        ElementColor = Color3.fromRGB(42, 168, 225)
+    },
+    GrapeTheme = {
+        SchemeColor = Color3.fromRGB(166, 71, 214),
+        Background = Color3.fromRGB(64, 50, 71),
+        Header = Color3.fromRGB(36, 28, 41),
+        TextColor = Color3.fromRGB(255,255,255),
+        ElementColor = Color3.fromRGB(74, 58, 84)
+    }, 
+    Hub = {
+        SchemeColor = Color3.fromRGB(65, 65, 65),
+        Background = Color3.fromRGB(41, 41, 41),
+        Header = Color3.fromRGB(30, 30, 30),
+        TextColor = Color3.fromRGB(255, 255, 255),
+        ElementColor = Color3.fromRGB(50, 50, 50)
+    }, 
+    Impact = {
+        SchemeColor = Color3.fromRGB(33, 33, 33),
+        Background = Color3.fromRGB(51, 51, 51),
+        Header = Color3.fromRGB(36, 38, 35),
+        TextColor = Color3.fromRGB(255,255,255),
+        ElementColor = Color3.fromRGB(24, 24, 24)
+    }, 
+    LemonTheme = {
+        SchemeColor = Color3.fromRGB(0, 0, 0),
+        Background = Color3.fromRGB(0, 0, 0),
+        Header = Color3.fromRGB(255, 255, 0),
+        TextColor = Color3.fromRGB(1,1,1),
+        ElementColor = Color3.fromRGB(224, 224, 0)
+    }, 
+    LightBlue = {
+        SchemeColor = Color3.fromRGB(28, 239, 225),
+        Background = Color3.fromRGB(10, 10, 10),
+        Header = Color3.fromRGB(5, 5, 5),
         TextColor = Color3.fromRGB(255,255,255),
         ElementColor = Color3.fromRGB(20, 20, 20)
     },
@@ -70,96 +168,12 @@ local themeStyles = {
         TextColor = Color3.fromRGB(0,0,0),
         ElementColor = Color3.fromRGB(224, 224, 224)
     },
-    BloodTheme = {
-        SchemeColor = Color3.fromRGB(227, 27, 27),
-        Background = Color3.fromRGB(10, 10, 10),
-        Header = Color3.fromRGB(5, 5, 5),
-        TextColor = Color3.fromRGB(255,255,255),
-        ElementColor = Color3.fromRGB(20, 20, 20)
-    },
-    GrapeTheme = {
-        SchemeColor = Color3.fromRGB(166, 71, 214),
-        Background = Color3.fromRGB(64, 50, 71),
-        Header = Color3.fromRGB(36, 28, 41),
-        TextColor = Color3.fromRGB(255,255,255),
-        ElementColor = Color3.fromRGB(74, 58, 84)
-    }, 
-    TashaciSMed = {
-        SchemeColor = Color3.fromRGB(0, 173, 104),
-        Background = Color3.fromRGB(10, 10, 10),
-        Header = Color3.fromRGB(15, 15, 15),
-        TextColor = Color3.fromRGB(255, 255, 255),
-        ElementColor = Color3.fromRGB(0, 255, 157)
-      },   
-    OreoTheme = {
-        SchemeColor = Color3.fromRGB(255,255,255),
+    Lock = {
+        SchemeColor = Color3.fromRGB(255, 255, 255),
         Background = Color3.fromRGB(0,0,0),
-        Header = Color3.fromRGB(8,8,8),
+        Header = Color3.fromRGB(128, 128, 128),
         TextColor = Color3.fromRGB(0,0,0),
-        ElementColor = Color3.fromRGB(255,255,255)
-    },
-    Ocean = {
-        SchemeColor = Color3.fromRGB(86, 76, 251),
-        Background = Color3.fromRGB(26, 32, 58),
-        Header = Color3.fromRGB(38, 45, 71),
-        TextColor = Color3.fromRGB(200, 200, 200),
-        ElementColor = Color3.fromRGB(38, 45, 71)
-    },
-    Midnight = {
-        SchemeColor = Color3.fromRGB(26, 189, 158),
-        Background = Color3.fromRGB(44, 62, 82),
-        Header = Color3.fromRGB(57, 81, 105),
-        TextColor = Color3.fromRGB(255, 255, 255),
-        ElementColor = Color3.fromRGB(52, 74, 95)
-    },
-    Sentinel = {
-        SchemeColor = Color3.fromRGB(230, 35, 69),
-        Background = Color3.fromRGB(32, 32, 32),
-        Header = Color3.fromRGB(24, 24, 24),
-        TextColor = Color3.fromRGB(119, 209, 138),
-        ElementColor = Color3.fromRGB(24, 24, 24)
-    },
-    Synapse = {
-        SchemeColor = Color3.fromRGB(46, 48, 43),
-        Background = Color3.fromRGB(13, 15, 12),
-        Header = Color3.fromRGB(36, 38, 35),
-        TextColor = Color3.fromRGB(152, 99, 53),
-        ElementColor = Color3.fromRGB(24, 24, 24)
-    },
-    Serpent = {
-        SchemeColor = Color3.fromRGB(0, 166, 58),
-        Background = Color3.fromRGB(31, 41, 43),
-        Header = Color3.fromRGB(22, 29, 31),
-        TextColor = Color3.fromRGB(255,255,255),
-        ElementColor = Color3.fromRGB(22, 29, 31)
-    },
-    VeztPur = {
-        SchemeColor = Color3.fromRGB(126, 6, 232),
-        Background = Color3.fromRGB(0, 0, 0),
-        Header = Color3.fromRGB(31, 31, 31),
-        TextColor = Color3.fromRGB(255,255,255),
-        ElementColor = Color3.fromRGB(31, 31, 31)
-    },
-    VeztTwi = {
-        SchemeColor = Color3.fromRGB(192, 192, 192),
-        Background = Color3.fromRGB(0, 0, 0),
-        Header = Color3.fromRGB(43, 85, 140),
-        TextColor = Color3.fromRGB(255,255,255),
-        ElementColor = Color3.fromRGB(31, 31, 31)
-    },
-    Vezt = {
-        SchemeColor = Color3.fromRGB(255, 140, 0),
-        Background = Color3.fromRGB(0, 0, 0),
-        Header = Color3.fromRGB(0, 0, 0),
-        TextColor = Color3.fromRGB(255,255,255),
-        ElementColor = Color3.fromRGB(20, 20, 20)
-    }, 
-    amogus = {
-        SchemeColor = Color3.fromRGB(255, 140, 0),
-        Background = Color3.fromRGB(0, 0, 0),
-        Header = Color3.fromRGB(0, 0, 0),
-        TextColor = Color3.fromRGB(255, 255, 255),
-        ElementColor = Color3.fromRGB(20, 20, 20)
+        ElementColor = Color3.fromRGB(128, 128, 128)
     }, 
     LolTheme = {
         SchemeColor = Color3.fromRGB(127, 255, 0),
@@ -168,55 +182,48 @@ local themeStyles = {
         TextColor = Color3.fromRGB(0,0,0),
         ElementColor = Color3.fromRGB(0, 255, 0)
     },
-    Lock = {
-        SchemeColor = Color3.fromRGB(255, 255, 255),
-        Background = Color3.fromRGB(0,0,0),
-        Header = Color3.fromRGB(128, 128, 128),
-        TextColor = Color3.fromRGB(0,0,0),
-        ElementColor = Color3.fromRGB(128, 128, 128)
-    }, 
-    Impact = {
-        SchemeColor = Color3.fromRGB(33, 33, 33),
-        Background = Color3.fromRGB(51, 51, 51),
-        Header = Color3.fromRGB(36, 38, 35),
-        TextColor = Color3.fromRGB(255,255,255),
-        ElementColor = Color3.fromRGB(24, 24, 24)
-    }, 
-    GoofyTheme = {
-        SchemeColor = Color3.fromRGB(178, 102, 255),
-        Background = Color3.fromRGB(160, 205, 230),
-        Header = Color3.fromRGB(255, 127, 80),
-        TextColor = Color3.fromRGB(0, 0, 0),
-        ElementColor = Color3.fromRGB(42, 168, 225)
-    },
-     SharkTheme = {
-        SchemeColor = Color3.fromRGB(150, 150, 150),
-        Background = Color3.fromRGB(0, 0, 0),
-        Header = Color3.fromRGB(1, 1, 1),
-        TextColor = Color3.fromRGB(1,1,1),
-        ElementColor = Color3.fromRGB(1, 0, 0)
-    },
-    CreamTheme = {
-        SchemeColor = Color3.fromRGB(1, 1, 1),
-        Background = Color3.fromRGB(0, 0, 0),
-        Header = Color3.fromRGB(128, 128, 128),
-        TextColor = Color3.fromRGB(0, 0, 0),
-        ElementColor = Color3.fromRGB(255, 255, 255)
-    },
-    SpaceTheme = {
-        SchemeColor = Color3.fromRGB(0, 0, 10),
-        Background = Color3.fromRGB(0, 0, 15),
-        Header = Color3.fromRGB(0, 128, 255),
+    Midnight = {
+        SchemeColor = Color3.fromRGB(26, 189, 158),
+        Background = Color3.fromRGB(44, 62, 82),
+        Header = Color3.fromRGB(57, 81, 105),
         TextColor = Color3.fromRGB(255, 255, 255),
-        ElementColor = Color3.fromRGB(128, 128, 128)
+        ElementColor = Color3.fromRGB(52, 74, 95)
     },
-    ShoeTheme = {
-        SchemeColor = Color3.fromRGB(245, 222, 179),
-        Background = Color3.fromRGB(255, 255, 255),
-        Header = Color3.fromRGB(0, 0, 0),
-        TextColor = Color3.fromRGB(0, 0, 0),
-        ElementColor = Color3.fromRGB(139, 69, 19)
+    NormalHub = {
+        SchemeColor = Color3.fromRGB(255, 128, 0),
+        Background = Color3.fromRGB(26, 32, 58),
+        Header = Color3.fromRGB(64, 64, 64),
+        TextColor = Color3.fromRGB(200, 200, 200),
+        ElementColor = Color3.fromRGB(64, 64, 64)
+    }, 
+    Ocean = {
+        SchemeColor = Color3.fromRGB(86, 76, 251),
+        Background = Color3.fromRGB(26, 32, 58),
+        Header = Color3.fromRGB(38, 45, 71),
+        TextColor = Color3.fromRGB(200, 200, 200),
+        ElementColor = Color3.fromRGB(38, 45, 71)
     },
+    OrangeTheme = {
+        SchemeColor = Color3.fromRGB(255,145,0),
+        Background = Color3.fromRGB(10, 10, 10),
+        Header = Color3.fromRGB(5, 5, 5),
+        TextColor = Color3.fromRGB(255,255,255),
+        ElementColor = Color3.fromRGB(20, 20, 20)
+    },
+    OreoTheme = {
+        SchemeColor = Color3.fromRGB(255,255,255),
+        Background = Color3.fromRGB(0,0,0),
+        Header = Color3.fromRGB(8,8,8),
+        TextColor = Color3.fromRGB(0,0,0),
+        ElementColor = Color3.fromRGB(255,255,255)
+    },
+    PurpleTheme = {
+        SchemeColor = Color3.fromRGB(204, 0, 204),
+        Background = Color3.fromRGB(31, 41, 43),
+        Header = Color3.fromRGB(22, 29, 31),
+        TextColor = Color3.fromRGB(255, 255, 255),
+        ElementColor = Color3.fromRGB(22, 29, 31)
+    }, 
     RainbowTheme = {
         SchemeColor = Color3.fromRGB(255, 0, 0),
         Background = Color3.fromRGB(255, 165, 0),
@@ -231,55 +238,41 @@ local themeStyles = {
         TextColor = Color3.fromRGB(128, 0, 0),
         ElementColor = Color3.fromRGB(255, 182, 193)
     },
-    LemonTheme = {
-        SchemeColor = Color3.fromRGB(0, 0, 0),
-        Background = Color3.fromRGB(0, 0, 0),
-        Header = Color3.fromRGB(255, 255, 0),
-        TextColor = Color3.fromRGB(1,1,1),
-        ElementColor = Color3.fromRGB(224, 224, 0)
-    }, 
-    PurpleTheme = {
-        SchemeColor = Color3.fromRGB(204, 0, 204),
+    Sentinel = {
+        SchemeColor = Color3.fromRGB(230, 35, 69),
+        Background = Color3.fromRGB(32, 32, 32),
+        Header = Color3.fromRGB(24, 24, 24),
+        TextColor = Color3.fromRGB(119, 209, 138),
+        ElementColor = Color3.fromRGB(24, 24, 24)
+    },
+    Serpent = {
+        SchemeColor = Color3.fromRGB(0, 166, 58),
         Background = Color3.fromRGB(31, 41, 43),
         Header = Color3.fromRGB(22, 29, 31),
-        TextColor = Color3.fromRGB(255, 255, 255),
+        TextColor = Color3.fromRGB(255,255,255),
         ElementColor = Color3.fromRGB(22, 29, 31)
-    }, 
-    OrangeTheme = {
-        SchemeColor = Color3.fromRGB(255,145,0),
-        Background = Color3.fromRGB(10, 10, 10),
-        Header = Color3.fromRGB(5, 5, 5),
-        TextColor = Color3.fromRGB(255,255,255),
-        ElementColor = Color3.fromRGB(20, 20, 20)
     },
-    CyanTheme = {
-        SchemeColor = Color3.fromRGB(0,255,230),
-        Background = Color3.fromRGB(10, 10, 10),
-        Header = Color3.fromRGB(5, 5, 5),
-        TextColor = Color3.fromRGB(255,255,255),
-        ElementColor = Color3.fromRGB(20, 20, 20)
-    }, 
-    BlueBurst = {
-        SchemeColor = Color3.fromRGB(0, 255, 240),
-        Background = Color3.fromRGB(0, 187, 240),
-        Header = Color3.fromRGB(0, 178, 255),
-        TextColor = Color3.fromRGB(0, 74, 179),
-        ElementColor = Color3.fromRGB(0, 105, 255)
+    SharkTheme = {
+        SchemeColor = Color3.fromRGB(150, 150, 150),
+        Background = Color3.fromRGB(0, 0, 0),
+        Header = Color3.fromRGB(1, 1, 1),
+        TextColor = Color3.fromRGB(1,1,1),
+        ElementColor = Color3.fromRGB(1, 0, 0)
     },
-    Hub = {
-        SchemeColor = Color3.fromRGB(65, 65, 65),
-        Background = Color3.fromRGB(41, 41, 41),
-        Header = Color3.fromRGB(30, 30, 30),
+    ShoeTheme = {
+        SchemeColor = Color3.fromRGB(245, 222, 179),
+        Background = Color3.fromRGB(255, 255, 255),
+        Header = Color3.fromRGB(0, 0, 0),
+        TextColor = Color3.fromRGB(0, 0, 0),
+        ElementColor = Color3.fromRGB(139, 69, 19)
+    },
+    SpaceTheme = {
+        SchemeColor = Color3.fromRGB(0, 0, 10),
+        Background = Color3.fromRGB(0, 0, 15),
+        Header = Color3.fromRGB(0, 128, 255),
         TextColor = Color3.fromRGB(255, 255, 255),
-        ElementColor = Color3.fromRGB(50, 50, 50)
-    }, 
-    NormalHub = {
-        SchemeColor = Color3.fromRGB(255, 128, 0),
-        Background = Color3.fromRGB(26, 32, 58),
-        Header = Color3.fromRGB(64, 64, 64),
-        TextColor = Color3.fromRGB(200, 200, 200),
-        ElementColor = Color3.fromRGB(64, 64, 64)
-    }, 
+        ElementColor = Color3.fromRGB(128, 128, 128)
+    },
     SunTheme = {
         SchemeColor = Color3.fromRGB(255, 0, 0),
         Background = Color3.fromRGB(0, 0, 0),
@@ -287,19 +280,47 @@ local themeStyles = {
         TextColor = Color3.fromRGB(20,20,20),
         ElementColor = Color3.fromRGB(20, 20, 20)
     }, 
-    ArcHub = {
-        SchemeColor = Color3.fromRGB(69,69,69),
-        Background = Color3.fromRGB(31, 41, 43),
-        Header = Color3.fromRGB(22, 29, 31),
-        TextColor = Color3.fromRGB(0,255,255),
-        ElementColor = Color3.fromRGB(22, 29, 31)
-    }, 
-    Electron = {
+    Synapse = {
         SchemeColor = Color3.fromRGB(46, 48, 43),
         Background = Color3.fromRGB(13, 15, 12),
         Header = Color3.fromRGB(36, 38, 35),
         TextColor = Color3.fromRGB(152, 99, 53),
         ElementColor = Color3.fromRGB(24, 24, 24)
+    },
+    TashaciSMed = {
+        SchemeColor = Color3.fromRGB(0, 173, 104),
+        Background = Color3.fromRGB(10, 10, 10),
+        Header = Color3.fromRGB(15, 15, 15),
+        TextColor = Color3.fromRGB(255, 255, 255),
+        ElementColor = Color3.fromRGB(0, 255, 157)
+    },   
+      Transparent= {
+        SchemeColor = Color3.fromRGB(65, 65, 65),
+        Background = Color3.fromRGB(0, 0, 0),
+        Header = Color3.fromRGB(30, 30, 30),
+        TextColor = Color3.fromRGB(255, 255, 255),
+        ElementColor = Color3.fromRGB(50, 50, 50)
+   },
+      Vezt = {
+        SchemeColor = Color3.fromRGB(255, 140, 0),
+        Background = Color3.fromRGB(0, 0, 0),
+        Header = Color3.fromRGB(0, 0, 0),
+        TextColor = Color3.fromRGB(255,255,255),
+        ElementColor = Color3.fromRGB(20, 20, 20)
+  }, 
+    VeztPur = {
+        SchemeColor = Color3.fromRGB(126, 6, 232),
+        Background = Color3.fromRGB(0, 0, 0),
+        Header = Color3.fromRGB(31, 31, 31),
+        TextColor = Color3.fromRGB(255,255,255),
+        ElementColor = Color3.fromRGB(31, 31, 31)
+    },
+    VeztTwi = {
+        SchemeColor = Color3.fromRGB(192, 192, 192),
+        Background = Color3.fromRGB(0, 0, 0),
+        Header = Color3.fromRGB(43, 85, 140),
+        TextColor = Color3.fromRGB(255,255,255),
+        ElementColor = Color3.fromRGB(31, 31, 31)
     },
     YouTube = {
         SchemeColor = Color3.fromRGB(46, 48, 43),
@@ -342,75 +363,83 @@ function Kavo.CreateLib(kavName, themeList)
     if not themeList then
         themeList = themes
     end
-    if themeList == "DarkTheme" then
-        themeList = themeStyles.DarkTheme
-    elseif themeList == "LightTheme" then
-        themeList = themeStyles.LightTheme
-    elseif themeList == "BloodTheme" then
-        themeList = themeStyles.BloodTheme
-    elseif themeList == "GrapeTheme" then
-        themeList = themeStyles.GrapeTheme
-        elseif themeList == "TashaciSMed" then
-        themeList = themeStyles.TashaciSMed
-    elseif themeList == "OreoTheme" then
-        themeList = themeStyles.OreoTheme
-    elseif themeList == "Ocean" then
-        themeList = themeStyles.Ocean
-    elseif themeList == "Midnight" then
-        themeList = themeStyles.Midnight
-    elseif themeList == "Sentinel" then
-        themeList = themeStyles.Sentinel
-    elseif themeList == "Synapse" then
-        themeList = themeStyles.Synapse
-    elseif themeList == "Serpent" then
-        themeList = themeStyles.Serpent
-    elseif themeList == "Vezt" then
-            themeList = themeStyles.Vezt
-    elseif themeList == "VeztPur" then
-            themeList = themeStyles.VeztPur
-    elseif themeList == "VeztTwi" then
-            themeList = themeStyles.VeztTwi
-    elseif themeList == "amogus" then
+    if themeList == "amogus" then
         themeList = themeStyles.amogus
-    elseif themeList == "LolTheme" then
-        themeList = themeStyles.LolTheme
-    elseif themeList == "Lock" then
-        themeList = themeStyles.Lock
-        elseif themeList == "Impact" then
-        themeList = themeStyles.Impact
-        elseif themeList == "GoofyTheme" then
-        themeList = themeStyles.GoofyTheme
-    elseif themeList == "CreamTheme" then
-        themeList = themeStyles.CreamTheme
-    elseif themeList == "SharkTheme" then
-	themeList = themeStyles.SharkTheme
-    elseif themeList == "SpaceTheme" then
-        themeList = themeStyles.SpaceTheme
-    elseif themeList == "ShoeTheme" then
-        themeList = themeStyles.ShoeTheme
-    elseif themeList == "RainbowTheme" then
-        themeList = themeStyles.RainbowTheme
-    elseif themeList == "RoseTheme" then
-	themeList = themeStyles.RoseTheme
-    elseif themeList == "LemonTheme" then
-        themeList = themeStyles.LemonTheme
-        elseif themeList == "OrangeTheme" then
-        themeList = themeStyles.OrangeTheme
-    elseif themeList == "CyanTheme" then
-        themeList = themeStyles.CyanTheme
-        elseif themeList == "BlueBurst" then
-        themeList = themeStyles.BlueBurst
-        elseif themeList == "Hub" then
-    	themeList = themeStyles.Hub
-    elseif themeList == "NormalHub" then
-        themeList = themeStyles.NormalHub
-        elseif themeList == "SunTheme" then
-        themeList = themeStyles.SunTheme
         elseif themeList == "ArcHub" then
         themeList = themeStyles.ArcHub
-        elseif themeList == "Electron" then
-        themeList = themeStyles.Electron
-    elseif themeList == "YouTube" then
+        elseif themeList == "BloodTheme" then
+        themeList = themeStyles.BloodTheme
+        elseif themeList == "BlueBurst" then
+        themeList = themeStyles.BlueBurst
+        elseif themeList == "BlueTheme" then
+        themeList = themeStyles.BlueTheme
+        elseif themeList == "CreamTheme" then
+        themeList = themeStyles.CreamTheme
+        elseif themeList == "CyanTheme" then
+        themeList = themeStyles.CyanTheme
+        elseif themeList == "Darkrai" then
+        themeList = themeStyles.Darkrai
+        elseif themeList == "DarkTheme" then
+        themeList = themeStyles.DarkTheme
+        elseif themeList == "GoofyTheme" then
+        themeList = themeStyles.GoofyTheme
+        elseif themeList == "GrapeTheme" then
+        themeList = themeStyles.GrapeTheme
+        elseif themeList == "Hub" then
+    	themeList = themeStyles.Hub
+        elseif themeList == "Impact" then
+        themeList = themeStyles.Impact
+        elseif themeList == "LemonTheme" then
+        themeList = themeStyles.LemonTheme
+        elseif themeList == "LightBlue" then
+        themeList = themeStyles.LightBlue
+        elseif themeList == "LightTheme" then
+        themeList = themeStyles.LightTheme
+        elseif themeList == "Lock" then
+        themeList = themeStyles.Lock
+        elseif themeList == "LolTheme" then
+        themeList = themeStyles.LolTheme
+        elseif themeList == "Midnight" then
+        themeList = themeStyles.Midnight
+        elseif themeList == "NormalHub" then
+        themeList = themeStyles.NormalHub
+        elseif themeList == "Ocean" then
+        themeList = themeStyles.Ocean
+        elseif themeList == "OrangeTheme" then
+        themeList = themeStyles.OrangeTheme
+        elseif themeList == "OreoTheme" then
+        themeList = themeStyles.OreoTheme
+        elseif themeList == "PurpleTheme" then
+        themeList = themeStyles.PurpleTheme
+        elseif themeList == "RainbowTheme" then
+        themeList = themeStyles.RainbowTheme
+        elseif themeList == "RoseTheme" then
+	    themeList = themeStyles.RoseTheme
+    	elseif themeList == "Sentinel" then
+        themeList = themeStyles.Sentinel
+        elseif themeList == "Serpent" then
+        themeList = themeStyles.Serpent
+        elseif themeList == "SharkTheme" then
+    	themeList = themeStyles.SharkTheme
+    	elseif themeList == "ShoeTheme" then
+        themeList = themeStyles.ShoeTheme
+        elseif themeList == "SpaceTheme" then
+        themeList = themeStyles.SpaceTheme
+        elseif themeList == "SunTheme" then
+        themeList = themeStyles.SunTheme
+        elseif themeList == "Synapse" then
+        themeList = themeStyles.Synapse
+        elseif themeList == "TashaciSMed" then
+        themeList = themeStyles.TashaciSMed
+        elseif themeList == "Transparent" then
+        themeList = themeStyles.Transparent
+        elseif themeList == "Vezt" then
+        themeList = themeStyles.Vezt
+        elseif themeList == "VeztPur" then
+        themeList = themeStyles.VeztPur
+        elseif themeList == "VeztTwi" then
+        themeList = themeStyles.VeztTwi
+        elseif themeList == "YouTube" then
         themeList = themeStyles.YouTube
         else
         if themeList.SchemeColor == nil then
