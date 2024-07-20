@@ -98,6 +98,13 @@ local themeStyles = {
         TextColor = Color3.fromRGB(0, 0, 0),
         ElementColor = Color3.fromRGB(255, 255, 255)
     },
+    Cyan = {
+        SchemeColor = Color3.fromRGB(0, 255, 255),
+        Background = Color3.fromRGB(10, 10, 10),
+        Header = Color3.fromRGB(5, 5, 5),
+        TextColor = Color3.fromRGB(0,255,255),
+        ElementColor = Color3.fromRGB(20, 20, 20)
+    },
     CyanTheme = {
         SchemeColor = Color3.fromRGB(0,255,230),
         Background = Color3.fromRGB(10, 10, 10),
@@ -294,13 +301,6 @@ local themeStyles = {
         TextColor = Color3.fromRGB(255, 255, 255),
         ElementColor = Color3.fromRGB(0, 255, 157)
     },   
-      Transparent= {
-        SchemeColor = Color3.fromRGB(65, 65, 65),
-        Background = Color3.fromRGB(0, 0, 0),
-        Header = Color3.fromRGB(30, 30, 30),
-        TextColor = Color3.fromRGB(255, 255, 255),
-        ElementColor = Color3.fromRGB(50, 50, 50)
-   },
       Vezt = {
         SchemeColor = Color3.fromRGB(255, 140, 0),
         Background = Color3.fromRGB(0, 0, 0),
@@ -375,6 +375,8 @@ function Kavo.CreateLib(kavName, themeList)
         themeList = themeStyles.BlueTheme
         elseif themeList == "CreamTheme" then
         themeList = themeStyles.CreamTheme
+        elseif themeList == "Cyan" then
+        themeList = themeStyles.Cyan
         elseif themeList == "CyanTheme" then
         themeList = themeStyles.CyanTheme
         elseif themeList == "Darkrai" then
@@ -431,8 +433,6 @@ function Kavo.CreateLib(kavName, themeList)
         themeList = themeStyles.Synapse
         elseif themeList == "TashaciSMed" then
         themeList = themeStyles.TashaciSMed
-        elseif themeList == "Transparent" then
-        themeList = themeStyles.Transparent
         elseif themeList == "Vezt" then
         themeList = themeStyles.Vezt
         elseif themeList == "VeztPur" then
