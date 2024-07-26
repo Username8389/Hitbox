@@ -1,17 +1,1 @@
--- You Can Skid IDGAF
-
-local lib = loadstring(game:HttpGet("https://raw.githubusercontent.com/AZYsGithub/Arceus-X-UI-Library/main/source.lua"))()
-
-lib:SetTitle("ADF Script Hub | Loader")
-
-lib:SetTheme("Default")
-
-lib:SetIcon("http://www.roblox.com/asset/?id=9178187770")
-
-lib:AddButton("Kavo Ui", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/Username8389/Hitbox/main/Kavo"))()
-end)
-
-lib:AddButton("Orion Ui", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/Username8389/Hitbox/main/Orion"))()
-end)
+game.Players.LocalPlayer:Kick("No More Hacks HEHE")
